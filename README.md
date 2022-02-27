@@ -6,4 +6,5 @@
 | :-----------------|----------:|
 | array_reverse     | [link](./array-reverse/)| 
 | insert_Shift_Array    | [link](./insertShiftArray/) | 
+| array-binary-search   | [link](./array-binary-search/) | 
 
