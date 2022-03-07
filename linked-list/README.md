@@ -9,11 +9,11 @@ Insert after: Add new node with value after specific node .
 
 ## Whiteboard Process
 
-![Add to the end](/assets/append.jpg)
+![Add to the end] (/assets/append.jpg)
 
-![Add before](/assets/add_before.jpg)
+![Add before] (/assets/add_before.jpg)
 
-![Add after](/assets/add_after.jpg)
+![Add after] (/assets/add_after.jpg)
 
 ## Approach & Efficiency
 
@@ -21,7 +21,7 @@ all of them at the worst case will be O(n)
 and maybe will be just O(1)
 
 ## Solution
-![Code](/assets/123.jpg)
+![Code] (/assets/123.jpg)
 
 
 
