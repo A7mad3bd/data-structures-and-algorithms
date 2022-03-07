@@ -9,7 +9,8 @@ Insert after: Add new node with value after specific node .
 
 ## Whiteboard Process
 
-![Add to the end](/assets/append.jpg)
+
+![](/assets/append.jpg)
 
 ![Add before](/assets/add_before.jpg)
 
