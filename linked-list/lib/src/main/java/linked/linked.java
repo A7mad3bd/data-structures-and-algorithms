@@ -1,41 +1,82 @@
 package linked;
 
-public class linked<T> {
+public class linked<ls> {
     Node head;
+    Node next;
 
-    public linked(){
+
+    public linked() {
         this.head = null;
     }
 
-    public void inseert(T v){
+    public void inseert(ls v) {
         Node newNode = new Node(v);
         newNode.next = this.head;
         this.head = newNode;
     }
 
-public boolean includes(T v){
-        boolean flag=false;
-         Node pointer = this.head;
-    while(pointer != null){
-        if(v.equals(pointer.value)){
-            flag=  true;
-        }
-        pointer = pointer.next;
-    }
-    return flag;
-}
-
-
-    public String toString(){
-        String S="";
+    public boolean includes(ls v) {
+        boolean flag = false;
         Node pointer = this.head;
-        while(pointer != null)
-        {
-            S+="{ "+ pointer.value+" } -> ";
+        while (pointer != null) {
+            if (v.equals(pointer.value)) {
+                flag = true;
+            }
             pointer = pointer.next;
         }
-        S+="NULL";
+        return flag;
+    }
+
+    public void insertBefore(Node given_ptr, String val) {
+        if (head == given_ptr) {
+            Node n = new Node(val);
+            n.next = head;
+            head = n;
+        } else {
+            Node p = null;
+            for (Node n = head; n != given_ptr;
+                 p = n, n = n.next)
+                ;
+            Node m = new Node(val);
+            m.next = p.next;
+            p.next = m;
+        }}
+    public void insertAfter(Node prev_node, String new_data)
+    {
+        if (prev_node == null)
+        {
+            return;
+        }
+         Node new_node = new Node(new_data);
+        new_node.next = prev_node.next;
+        prev_node.next = new_node;
+    }
+
+    public void append(String new_data) {
+        Node new_node = new Node(new_data);
+        if (head == null) {
+            head = new Node(new_data);
+            return;
+        }
+        new_node.next = null;
+        Node last = head;
+        while (last.next != null)
+            last = last.next;
+        last.next = new_node;
+        return;
+    }
+
+
+    public String toString() {
+        String S = "";
+        Node pointer = this.head;
+        while (pointer != null) {
+            S += "{ " + pointer.value + " } -> ";
+            pointer = pointer.next;
+        }
+        S += "NULL";
         return S.toString();
     }
+
 
 }
