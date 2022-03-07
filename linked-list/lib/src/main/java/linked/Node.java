@@ -1,10 +1,10 @@
 package linked;
 
-public class Node<T> {
-    T value;
+public class Node<ls> {
+    ls value;
     Node next;
 
-    public Node(T value) {
+    public Node(ls value) {
         this.value = value;
     }
 }
