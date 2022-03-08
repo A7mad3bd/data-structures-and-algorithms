@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee31eb6c-e34f-4d86-9415-17b723882968" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/222.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +41,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\linked-list" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AppTest">
+  <component name="RunManager" selected="Gradle.AppTest.kthFromEnd_test">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked.App" />
       <module name="linked.lib.main" />
@@ -77,6 +85,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AppTest.kthFromEnd_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;linked.AppTest.kthFromEnd_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="linked-list" />
       <method v="2">
@@ -92,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AppTest.kthFromEnd_test" />
         <item itemvalue="Gradle.AppTest" />
         <item itemvalue="Application.App" />
       </list>
@@ -107,6 +139,8 @@
       <updated>1646253530267</updated>
       <workItem from="1646253531482" duration="611000" />
       <workItem from="1646573844601" duration="7000" />
+      <workItem from="1646754778174" duration="5252000" />
+      <workItem from="1646768315475" duration="307000" />
     </task>
     <servers />
   </component>

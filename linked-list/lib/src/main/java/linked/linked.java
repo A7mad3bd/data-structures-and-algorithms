@@ -3,6 +3,7 @@ package linked;
 public class linked<ls> {
     Node head;
     Node next;
+    Node prev;
 
 
     public linked() {
@@ -40,14 +41,14 @@ public class linked<ls> {
             Node m = new Node(val);
             m.next = p.next;
             p.next = m;
-        }}
-    public void insertAfter(Node prev_node, String new_data)
-    {
-        if (prev_node == null)
-        {
+        }
+    }
+
+    public void insertAfter(Node prev_node, String new_data) {
+        if (prev_node == null) {
             return;
         }
-         Node new_node = new Node(new_data);
+        Node new_node = new Node(new_data);
         new_node.next = prev_node.next;
         prev_node.next = new_node;
     }
@@ -67,6 +68,24 @@ public class linked<ls> {
     }
 
 
+    public String kthFromEnd(int k) throws IllegalArgumentException {
+        Node kth = this.head;
+        int index = size() - k - 1;
+        int i = 0;
+        if ( k < 0 || k > size() - 1 ) {
+            return "Index Not Exist";
+        } else {
+            while (i != index) {
+                i++;
+                kth = kth.next;
+            }
+        }
+        if (k > 0 || k < size() - 1)
+            System.out.println("Happy Path");
+        return String.valueOf(kth.value);
+    }
+
+
     public String toString() {
         String S = "";
         Node pointer = this.head;
@@ -79,4 +98,13 @@ public class linked<ls> {
     }
 
 
+    public int size() {
+        int Size = 0;
+        Node N = head;
+        while (N != null) {
+            Size++;
+            N = N.next;
+        }
+        return Size;
+    }
 }

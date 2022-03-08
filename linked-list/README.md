@@ -1,4 +1,17 @@
 # Challenge Summary
+Write a function kthFromEnd to get a value of node if it exist from the end of the linked list
+
+## Whiteboard Process
+
+<img alt="Whiteboard" height="300" src="/111.jpg" width="500"/>
+## Approach & Efficiency
+
+An approach is based on the kth index and when counter equals kth node it is complete.  The Big O for time O(n) counting up linear and the space is O(n) due to the recursive method.
+
+## Solution
+
+![](2222.jpg)
+# Challenge Summary
 This challenge has three functions for linked list:
 
 append: Adds a new node with value at the end of the list.
@@ -9,12 +22,14 @@ Insert after: Add new node with value after specific node .
 
 ## Whiteboard Process
 
+<img alt="Add to the end" height="300" src="/assets/append.jpg" width="600"/>
+=======
+<img alt="append" height="300" src="/assets/append.jpg" width="600"/>
 
-![](/assets/append.jpg)
 
-![Add before](/assets/add_before.jpg)
+<img alt="Add before" height="300" src="/assets/add_before.jpg" width="500"/>
 
-![Add after](/assets/add_after.jpg)
+<img alt="Add after" height="300" src="/assets/add_after.jpg" width="500"/>
 
 ## Approach & Efficiency
 
@@ -22,18 +37,8 @@ all of them at the worst case will be O(n)
 and maybe will be just O(1)
 
 ## Solution
-![Code](/assets/123.jpg)
 
-
-
-
-
-
-
-
-
-
-
+<img alt="Code" height="300" src="/assets/123.jpg" width="400"/>
 
 
 

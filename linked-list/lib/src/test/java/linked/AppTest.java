@@ -11,15 +11,16 @@ public class AppTest {
     void inserttest() {
         linked<String> list1 = new linked();
         list1.inseert("1");
-        assertTrue(list1.head.value=="1"==true);
+        assertTrue(list1.head.value == "1" == true);
     }
+
     @Test
     void includestest() {
         linked<String> list1 = new linked();
         list1.inseert("2");
         list1.inseert("3");
         list1.inseert("4");
-            assertTrue(list1.includes("3")==true);
+        assertTrue(list1.includes("3") == true);
     }
 
     @Test
@@ -28,7 +29,7 @@ public class AppTest {
         list1.inseert("5");
         list1.inseert("4");
         list1.inseert("3");
-        assertTrue(list1.toString().equals("{ 3 } -> { 4 } -> { 5 } -> NULL")==true);
+        assertTrue(list1.toString().equals("{ 3 } -> { 4 } -> { 5 } -> NULL") == true);
     }
 
     @Test
@@ -48,9 +49,9 @@ public class AppTest {
         list1.inseert("2");
         list1.inseert("1");
         Node S2;
-        S2=  list1.head.next.next;
-        String value= (String) S2.value;
-        list1.insertBefore(S2,"3");
+        S2 = list1.head.next.next;
+        String value = (String) S2.value;
+        list1.insertBefore(S2, "3");
         assertEquals("{ 1 } -> { 2 } -> { 3 } -> { 4 } -> NULL", list1.toString());
     }
 
@@ -62,10 +63,34 @@ public class AppTest {
         list1.inseert("1");
         System.out.println(list1.toString());
         Node S2;
-        S2=  list1.head.next;
-        String value= (String) S2.value;
-        list1.insertAfter(S2,"3");
+        S2 = list1.head.next;
+        String value = (String) S2.value;
+        list1.insertAfter(S2, "3");
         assertEquals("{ 1 } -> { 2 } -> { 3 } -> { 4 } -> NULL", list1.toString());
+    }
+
+    @Test
+    void kthFromEnd_test() {
+        linked<String> list1 = new linked();
+        list1.inseert("A");
+        list1.inseert("B");
+        list1.inseert("C");
+        list1.inseert("D");
+        list1.inseert("E");
+
+        String Test1 = list1.kthFromEnd(15);
+        assertEquals("Index Not Exist",Test1);
+
+        String Test2 = list1.kthFromEnd(list1.size()-1);
+        assertEquals("E",Test2);
+
+        String Test3 = list1.kthFromEnd(0);
+        assertEquals("A",Test3);
+
+        String Test4 = list1.kthFromEnd(-1);
+        assertEquals("Index Not Exist",Test4);
+
+        assertEquals("{ E } -> { D } -> { C } -> { B } -> { A } -> NULL", list1.toString());
     }
 
 
