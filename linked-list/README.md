@@ -23,6 +23,9 @@ Insert after: Add new node with value after specific node .
 ## Whiteboard Process
 
 <img alt="Add to the end" height="300" src="/assets/append.jpg" width="600"/>
+=======
+<img alt="append" height="300" src="/assets/append.jpg" width="600"/>
+
 
 <img alt="Add before" height="300" src="/assets/add_before.jpg" width="500"/>
 
