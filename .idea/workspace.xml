@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/linked.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/linked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
       <updated>1645679768214</updated>
       <workItem from="1645679769887" duration="24000" />
       <workItem from="1645867190852" duration="17000" />
+      <workItem from="1646940726203" duration="1093000" />
     </task>
     <servers />
   </component>

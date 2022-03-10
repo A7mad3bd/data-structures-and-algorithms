@@ -93,5 +93,28 @@ public class AppTest {
         assertEquals("{ E } -> { D } -> { C } -> { B } -> { A } -> NULL", list1.toString());
     }
 
+    @Test
+    void zip_test() {
+        linked<String> list1 = new linked();
+        list1.inseert("B");
+        list1.inseert("A");
+
+
+        linked<String> list2 = new linked();
+        list2.inseert("D");
+        list2.inseert("C");
+
+        linked<String> list3 = new linked();
+
+       linked Test4 = list3.zip_list (list1,list2);
+
+
+        assertEquals("{ A } -> { C } -> { B } -> { D } -> NULL", Test4.toString());
+    }
 
 }
+
+
+/*
+
+* */
