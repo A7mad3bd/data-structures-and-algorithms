@@ -3,7 +3,6 @@ package linked;
 public class linked<ls> {
     Node head;
     Node next;
-    Node prev;
 
 
     public linked() {
@@ -72,7 +71,7 @@ public class linked<ls> {
         Node kth = this.head;
         int index = size() - k - 1;
         int i = 0;
-        if ( k < 0 || k > size() - 1 ) {
+        if (k < 0 || k > size() - 1) {
             return "Index Not Exist";
         } else {
             while (i != index) {
@@ -107,4 +106,34 @@ public class linked<ls> {
         }
         return Size;
     }
+
+    public static linked zip_list(linked list1, linked list2) {
+
+        Node pointer = list1.head;
+        Node pointer1 = list2.head;
+        linked list3 = new linked();
+
+        boolean flag = true;
+        while (flag) {
+            if (pointer == null && pointer1 == null)
+                flag = false;
+            if (pointer != null) {
+                list3.append((String) pointer.getValue());
+                pointer = pointer.next;
+            }
+
+            if (pointer1 != null) {
+                list3.append((String) pointer1.getValue());
+                pointer1 = pointer1.next;
+            }
+
+
+        }
+        return list3;
+    }
 }
+
+
+
+
+

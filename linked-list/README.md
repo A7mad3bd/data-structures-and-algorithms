@@ -1,16 +1,19 @@
 # Challenge Summary
-Write a function kthFromEnd to get a value of node if it exist from the end of the linked list
-
+Write a function Zip two linked list into new linked list by adding node fron every list 
 ## Whiteboard Process
 
-<img alt="Whiteboard" height="300" src="/111.jpg" width="500"/>
+<img alt="Whiteboard" height="300" src="/assets/zip_list.jpg" width="500"/>
 ## Approach & Efficiency
 
-An approach is based on the kth index and when counter equals kth node it is complete.  The Big O for time O(n) counting up linear and the space is O(n) due to the recursive method.
+An approach is based on the length of tow lists index and when counter both of them will be at the end (null) zip_list it is complete.  The Big O for time O(n) counting up linear and the space is O(1) .
 
 ## Solution
 
-![](2222.jpg)
+![](/assets/zip_sol.jpg)
+
+
+
+
 # Challenge Summary
 This challenge has three functions for linked list:
 

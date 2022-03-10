@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee31eb6c-e34f-4d86-9415-17b723882968" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/222.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" afterDir="false" />
@@ -29,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="25qTHSnO1Db4CSdjSPytp6y3Xw1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AppTest.kthFromEnd_test">
+  <component name="RunManager" selected="Gradle.AppTest.zip_test">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked.App" />
       <module name="linked.lib.main" />
@@ -108,6 +111,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AppTest.zip_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;linked.AppTest.zip_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="linked-list" />
       <method v="2">
@@ -123,9 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AppTest.zip_test" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Gradle.AppTest.kthFromEnd_test" />
         <item itemvalue="Gradle.AppTest" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +167,11 @@
       <workItem from="1646253531482" duration="611000" />
       <workItem from="1646573844601" duration="7000" />
       <workItem from="1646754778174" duration="5252000" />
-      <workItem from="1646768315475" duration="307000" />
+      <workItem from="1646768315475" duration="759000" />
+      <workItem from="1646815518491" duration="29000" />
+      <workItem from="1646815711783" duration="1442000" />
+      <workItem from="1646941862531" duration="7815000" />
+      <workItem from="1646953440211" duration="1427000" />
     </task>
     <servers />
   </component>
@@ -157,5 +188,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linked$AppTest_zip_test.ic" NAME="AppTest.zip_test Coverage Results" MODIFIED="1646946263899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
