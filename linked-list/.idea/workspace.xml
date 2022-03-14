@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee31eb6c-e34f-4d86-9415-17b723882968" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/linked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/linked/AppTest.java" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AppTest.zip_test">
+  <component name="RunManager" selected="Gradle.AppTest.TestPalindrome">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked.App" />
       <module name="linked.lib.main" />
@@ -79,6 +79,29 @@
             <option value=":lib:test" />
             <option value="--tests" />
             <option value="&quot;linked.AppTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.TestPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;linked.AppTest.TestPalindrome&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,8 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AppTest.zip_test" />
+        <item itemvalue="Gradle.AppTest.TestPalindrome" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.AppTest.zip_test" />
         <item itemvalue="Gradle.AppTest.kthFromEnd_test" />
         <item itemvalue="Gradle.AppTest" />
       </list>
@@ -172,6 +196,8 @@
       <workItem from="1646815711783" duration="1442000" />
       <workItem from="1646941862531" duration="7815000" />
       <workItem from="1646953440211" duration="1427000" />
+      <workItem from="1647290463699" duration="126000" />
+      <workItem from="1647290631226" duration="93000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,7 @@
 package linked;
 
+import java.util.ArrayList;
+
 public class linked<ls> {
     Node head;
     Node next;
@@ -130,6 +132,37 @@ public class linked<ls> {
 
         }
         return list3;
+    }
+
+    public boolean Palindrome(){
+        boolean isPalindrome=true;
+        ArrayList<String> copy_reverse=new ArrayList<>();
+        Node n1=head;
+        while(n1!=null){
+            copy_reverse.add((String) n1.value);
+            n1=n1.next;
+        }
+        reverseArrayList(copy_reverse);
+        Node n2=head;
+        for(int i=0;i<copy_reverse.size();i++){
+            if(copy_reverse.get(i)==n2.value){
+                n2=n2.next;
+            }
+            else{
+                isPalindrome=false;
+            }
+        }
+        return isPalindrome;
+    }
+    public ArrayList<String> reverseArrayList(ArrayList<String> alist)
+    {
+
+        for (int i = 0; i < alist.size() / 2; i++) {
+            String temp = alist.get(i);
+            alist.set(i, alist.get(alist.size() - i - 1));
+            alist.set(alist.size() - i - 1, temp);
+        }
+        return alist;
     }
 }
 

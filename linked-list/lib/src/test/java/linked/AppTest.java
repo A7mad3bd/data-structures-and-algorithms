@@ -111,7 +111,27 @@ public class AppTest {
 
         assertEquals("{ A } -> { C } -> { B } -> { D } -> NULL", Test4.toString());
     }
+    @Test
+    void TestPalindrome() {
+        linked<String> list1 = new linked();
+        list1.inseert("A");
+        list1.inseert("B");
+        list1.inseert("D");
+        list1.inseert("B");
+        list1.inseert("A");
 
+        linked<String> list2 = new linked();
+        list2.inseert("D");
+        list2.inseert("C");
+        list2.inseert("F");
+        list2.inseert("F");
+        list2.inseert("D");
+
+
+        assertTrue(list1.Palindrome());
+        assertEquals(list2.Palindrome(),false);
+
+    }
 }
 
 

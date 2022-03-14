@@ -1,4 +1,19 @@
 # Challenge Summary
+Write a function to validate whether or not a Linked list is a palindrome 
+## Whiteboard Process
+
+<img alt="Whiteboard" height="300" src="/assets/pi.jpg" width="500"/>
+## Approach & Efficiency
+
+  The Big O for time O(n) counting up linear and the space is O(n) .
+
+## Solution
+
+
+
+
+
+# Challenge Summary
 Write a function Zip two linked list into new linked list by adding node fron every list 
 ## Whiteboard Process
 
