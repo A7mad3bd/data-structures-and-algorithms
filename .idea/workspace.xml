@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="" />
+    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/Pseduequeue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/QueueNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/StackNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +43,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-queue-pseudo\app\src\main\java\com\pkg" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,10 +63,25 @@
       <workItem from="1646940726203" duration="1093000" />
       <workItem from="1647276829411" duration="198000" />
       <workItem from="1647340806257" duration="278000" />
+      <workItem from="1647799239245" duration="46000" />
+      <workItem from="1647799333663" duration="103000" />
+      <workItem from="1647802005647" duration="149000" />
+      <workItem from="1647817294361" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
