@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/Pseduequeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/QueueNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg/StackNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +46,7 @@
       <workItem from="1647799333663" duration="103000" />
       <workItem from="1647802005647" duration="149000" />
       <workItem from="1647817294361" duration="199000" />
+      <workItem from="1647944031442" duration="48000" />
     </task>
     <servers />
   </component>

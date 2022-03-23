@@ -1,5 +1,7 @@
 package com.pkg;
 
+import com.pkg.AnimalShelter.Animals;
+
 import java.util.NoSuchElementException;
 
 public class Queue {
@@ -15,7 +17,7 @@ public class Queue {
         size = 0;
     }
 
-    public boolean add(QueueNode data) {
+    public boolean enqueue(QueueNode data) {
         if (isEmpty()) {
             front = data;
             back = data;
@@ -33,6 +35,8 @@ public class Queue {
         return false;
     }
 
+
+
     public QueueNode peek() {
         if (isEmpty()) {
             return null;
@@ -41,7 +45,7 @@ public class Queue {
         }
     }
 
-    public QueueNode remove() {
+    public QueueNode dequeue() {
         QueueNode frontTemp;
         if (isEmpty()) {
             throw new NoSuchElementException("The queue is empty");
@@ -89,4 +93,6 @@ public class Queue {
                 ", size=" + size +
                 '}';
     }
+
+
 }

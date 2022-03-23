@@ -10,11 +10,11 @@ class QueueTest {
     @DisplayName("testStackPush")
     void testStackPush() {
         Queue queue = new Queue();
-        queue.add(new QueueNode("Jason", "555-555-555")); // first in
-        queue.add(new QueueNode("Osaid", "666-666-666"));
-        queue.add(new QueueNode("Roaa", "777-777-777"));
+        queue.enqueue(new QueueNode("Jason", "555-555-555")); // first in
+        queue.enqueue(new QueueNode("Osaid", "666-666-666"));
+        queue.enqueue(new QueueNode("Roaa", "777-777-777"));
         queue.peek();
-        queue.remove();
+        queue.dequeue();
         queue.isEmpty();
     }
 
@@ -22,7 +22,7 @@ class QueueTest {
     @Test
     public void addToQueuetest() {
         Queue queueTest = new Queue();
-        queueTest.add(new QueueNode("A", "1"));
+        queueTest.enqueue(new QueueNode("A", "1"));
         assertEquals("Queue{back=QueueNode{name='A', number='1'}, front=QueueNode{name='A', number='1'}, size=1}", queueTest.toString());
     }
 
@@ -30,9 +30,9 @@ class QueueTest {
     public void removeFromQueuetest() {
 
         Queue queueTest = new Queue();
-        queueTest.add(new QueueNode("A", "1"));
+        queueTest.enqueue(new QueueNode("A", "1"));
         assertEquals("Queue{back=QueueNode{name='A', number='1'}, front=QueueNode{name='A', number='1'}, size=1}", queueTest.toString());
-        queueTest.remove();
+        queueTest.dequeue();
         assertEquals("Queue{back=null, front=null, size=0}", queueTest.toString());
 
 
@@ -43,7 +43,7 @@ class QueueTest {
         Queue q1 = new Queue();
         assertEquals(q1.isEmpty(), true);
         QueueNode expected1 = new QueueNode("A", "1");
-        q1.add(expected1);
+        q1.enqueue(expected1);
         assertEquals(q1.isEmpty(), false);
     }
 
@@ -52,7 +52,7 @@ class QueueTest {
         Queue q1 = new Queue();
         assertEquals(q1.peek(), null);
         QueueNode expected1 = new QueueNode("A", "1");
-        q1.add(expected1);
+        q1.enqueue(expected1);
         assertEquals(q1.peek(), q1.getFront());
     }
 }
