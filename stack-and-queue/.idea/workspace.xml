@@ -5,25 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5099994-e195-483e-95e1-4135f85a78ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/Pseduequeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/QueueNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/StackNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/psedoqueue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/psedoqueue/pseudoqueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/pseudoqueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pkg/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/QueueNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/StackNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/pseudoqueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/test/java/PsuedoQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +72,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar!/org/opentest4j/AssertionFailedError.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../../../Program Files/Eclipse Adoptium/jdk-11.0.14.101-hotspot/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../../../Program Files/Eclipse Adoptium/jdk-11.0.14.101-hotspot/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -76,7 +98,53 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.Pseduequeue">
+  <component name="RunManager" selected="Gradle.AnimalShelterTest.testEnqueue">
+    <configuration name="AnimalShelterTest.testDequeues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;com.pkg.AnimalShelterTest.testDequeues&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnimalShelterTest.testEnqueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;com.pkg.AnimalShelterTest.testEnqueue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Pseduequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,29 +191,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pseduequeue.testEnqueues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;com.pkg.Pseduequeue.testEnqueues&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="Pseduequeue.testPsuedoQueueDequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,36 +214,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pseduequeue.testPsuedoQueueEnqueueFIFO" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;com.pkg.Pseduequeue.testPsuedoQueueEnqueueFIFO&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AnimalShelterTest.testEnqueue" />
+        <item itemvalue="Gradle.AnimalShelterTest.testDequeues" />
         <item itemvalue="Gradle.Pseduequeue" />
         <item itemvalue="Gradle.Pseduequeue.testDequeue_S" />
         <item itemvalue="Gradle.Pseduequeue.testPsuedoQueueDequeue" />
-        <item itemvalue="Gradle.Pseduequeue.testPsuedoQueueEnqueueFIFO" />
-        <item itemvalue="Gradle.Pseduequeue.testEnqueues" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +234,7 @@
       <updated>1647370350430</updated>
       <workItem from="1647370351716" duration="5953000" />
       <workItem from="1647802283701" duration="940000" />
+      <workItem from="1647944349756" duration="11934000" />
     </task>
     <servers />
   </component>

@@ -3,19 +3,18 @@ package com.pkg;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class Pseduequeue {
     @Test
     void testEnqueue() throws Exception {
-        pseudoqueue test = new pseudoqueue();
+        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
         test.enqueue("A");
         assertEquals("[A]", test.First.toString());
     }
 
     @Test
     void testEnqueues() throws Exception {
-        pseudoqueue test = new pseudoqueue();
+        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
@@ -24,7 +23,7 @@ class Pseduequeue {
 
     @Test
     void EnqueueFIFObypeek() throws Exception {
-        pseudoqueue test = new pseudoqueue();
+        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
@@ -33,7 +32,7 @@ class Pseduequeue {
 
     @Test
     void testDequeue() throws Exception {
-        pseudoqueue test = new pseudoqueue();
+        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
@@ -43,7 +42,7 @@ class Pseduequeue {
 
     @Test
     void testDequeue_S() throws Exception {
-        pseudoqueue test = new pseudoqueue();
+        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
