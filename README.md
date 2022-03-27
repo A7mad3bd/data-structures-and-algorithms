@@ -11,7 +11,7 @@
 | Stack-and-Queue     |                               [link](./stack-and-queue) | 
 | psedoqueue     |                               [link](./stack-and-queue/app/src/main/java/com/pkg/psedoqueue/) | 
 | AnimalShelter     |                               [link](./stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/) | 
+| validate_brackets     |                               [link](./stack-and-queue/app/src/main/java/com/pkg/brackets.java) | 
 
 | Pseudo stack-queue  | [link](./stack-queue-pseudo/app/src/main/java/com/pkg/pseudoqueue.java) | 
-
 
