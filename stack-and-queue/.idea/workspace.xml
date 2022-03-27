@@ -5,42 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5099994-e195-483e-95e1-4135f85a78ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/AnimalShelter/dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/psedoqueue/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/psedoqueue/pseudoqueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/validate_brackets_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/pseudoqueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pkg/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/QueueNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/StackNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/main/java/com/pkg/pseudoqueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/app/src/test/java/PsuedoQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +61,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.AnimalShelterTest.testEnqueue">
+  <component name="RunManager" selected="Gradle.validate_brackets_test.validateBracketsTest">
     <configuration name="AnimalShelterTest.testDequeues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pseduequeue.testPsuedoQueueDequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="validate_brackets_test.validateBracketsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +171,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.Pseduequeue.testPsuedoQueueDequeue&quot;" />
+            <option value="&quot;com.pkg.validate_brackets_test.validateBracketsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.validate_brackets_test.validateBracketsTest" />
         <item itemvalue="Gradle.AnimalShelterTest.testEnqueue" />
         <item itemvalue="Gradle.AnimalShelterTest.testDequeues" />
         <item itemvalue="Gradle.Pseduequeue" />
         <item itemvalue="Gradle.Pseduequeue.testDequeue_S" />
-        <item itemvalue="Gradle.Pseduequeue.testPsuedoQueueDequeue" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +202,7 @@
       <workItem from="1647370351716" duration="5953000" />
       <workItem from="1647802283701" duration="940000" />
       <workItem from="1647944349756" duration="11934000" />
+      <workItem from="1648419531973" duration="2364000" />
     </task>
     <servers />
   </component>
