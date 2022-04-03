@@ -1,11 +1,11 @@
 package com.pkg.AnimalShelter;
 
-import com.pkg.Queue;
-import com.pkg.QueueNode;
+import com.pkg.Stack_queue_node.Queuen;
+import com.pkg.Stack_queue_node.QueueNode;
 
 public class AnimalShelter {
-    Queue cats = new Queue();
-    Queue dogs = new Queue();
+    Queuen cats = new Queuen();
+    Queuen dogs = new Queuen();
     QueueNode cat;
     QueueNode dog;
 
@@ -42,19 +42,19 @@ public class AnimalShelter {
         }
     }
 
-    public Queue getCats() {
+    public Queuen getCats() {
         return cats;
     }
 
-    public void setCats(Queue cats) {
+    public void setCats(Queuen cats) {
         this.cats = cats;
     }
 
-    public Queue getDogs() {
+    public Queuen getDogs() {
         return dogs;
     }
 
-    public void setDogs(Queue dogs) {
+    public void setDogs(Queuen dogs) {
         this.dogs = dogs;
     }
 
