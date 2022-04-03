@@ -14,7 +14,3 @@
 | validate_brackets	     |  [link](./stack-and-queue/app/src/main/java/com/pkg/validatebrackets/) | 
 | duckDuckGoose     |  [link](./stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/) | 
 | Tree     |  [link](./stack-and-queue/app/src/main/java/com/pkg/tree/) | 
-
-
-
-
