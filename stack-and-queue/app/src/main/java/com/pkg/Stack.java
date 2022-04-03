@@ -1,59 +1,82 @@
 package com.pkg;
 
-import com.pkg.StackNode;
+public class Stack<T> {
+    Node<T> top;
+    int size;
 
-import java.util.EmptyStackException;
-
-public class Stack {
-
-    private StackNode top;
-
-    public Stack() {
-        top = null;
+    public int getSize() {
+        return size;
     }
 
-    public boolean empty() {
-        return top == null;
+    public Node<T> getTop() {
+        return top;
     }
 
-    public StackNode push(StackNode stackNode) {
-        if (empty()) {
-            top = stackNode;
-            return stackNode;
+    public void setTop(Node<T> top) {
+        this.top = top;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public void push(T data) {
+        Node<T> n = new Node<>(data);
+        if (top == null) {
+            top = n;
         } else {
-            // make stack node point to what top is pointing to
-            stackNode.setNext(top);
-            // make top point to stack node
-            top = stackNode;
-            return stackNode;
+            Node<T> tempRef = top;
+            top = n;
+            top.next = tempRef;
         }
+        size++;
     }
 
-    public StackNode pop() {
-        StackNode fronttop = top; // stores the first node in the queue
-        if (!empty()) {
-            top = top.getNext();
-            return fronttop;
-        }
-        return fronttop;
-    }
 
-    public StackNode peek() {
-        if (empty()) {
-            throw new EmptyStackException();
+    public T pop() {
+        if (top == null) {
+            return null;
         }
 
-        return top;
+        Node<T> tempRef = top;
+        top = top.next;
+        tempRef.next = null;
+        size--;
+        return tempRef.value;
     }
 
-    public StackNode getTop() {
-        return top;
+    public T peek() throws Exception {
+        if (top == null) {
+            throw new Exception("Stack is empty");
+        }
+
+        return top.value;
+    }
+
+    public boolean isEmpty() {
+        return top == null;
     }
 
     @Override
     public String toString() {
-        return "Stack{" +
-                "top=" + top +
-                '}';
+        if (isEmpty()) {
+            return "Stack is empty";
+        } else {
+
+            Node<T> temp = top;
+            String tostring = "Top -> ";
+            while (temp.next != null) {
+                tostring = tostring + "{" + temp.value + "} -> ";
+                temp = temp.next;
+            }
+            tostring += "{" + temp.value + "} -> null";
+            return "Stack{" +
+                    "top=" + top +
+                    ", size=" + size +
+                    '}' + tostring;
+        }
     }
+
+
+//    }
 }

@@ -1,4 +1,4 @@
-package com.pkg;
+package com.pkg.Stack_queue_node;
 
 public class QueueNode {
 

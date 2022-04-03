@@ -1,98 +1,56 @@
 package com.pkg;
 
-import com.pkg.AnimalShelter.Animals;
 
-import java.util.NoSuchElementException;
+public class Queue<T> {
+    private Node<T> front;
+    private Node<T> back;
+    private int size = 0;
 
-public class Queue {
-
-    private static final int QUEUE_SIZE = 10;
-
-    private QueueNode back;
-    private QueueNode front;
-
-    private int size;
-
-    public Queue() { // default constructor
-        size = 0;
+    public int getSize() {
+        return size;
     }
 
-    public boolean enqueue(QueueNode data) {
+    public void enqueue(T value) {
+        Node<T> node = new Node<>(value);
         if (isEmpty()) {
-            front = data;
-            back = data;
-            size++;
-            return true;
+            front = node;
         } else {
-            if (size < QUEUE_SIZE) {
-                data.setNext(back);
-                back = data;
-                size++;
-                return true;
-            }
+            back.next = node;
+        }
+        back = node;
+        size++;
+    }
+
+    public T dequeue() throws Exception {
+        if (front == null) {
+            throw new Exception("queue is empty!");
+        }
+        Node<T> tempRef = front;
+        front = front.next;
+        tempRef.next = null;
+        size--;
+        return tempRef.value;
+
+    }
+
+    public T peek() throws Exception {
+        if (front == null) {
+            throw new Exception("queue is empty!");
         }
 
-        return false;
-    }
-
-
-
-    public QueueNode peek() {
-        if (isEmpty()) {
-            return null;
-        } else {
-            return front;
-        }
-    }
-
-    public QueueNode dequeue() {
-        QueueNode frontTemp;
-        if (isEmpty()) {
-            throw new NoSuchElementException("The queue is empty");
-        } else {
-            frontTemp = front; // stores the first node in the queue
-            front = front.getNext(); // removes the first node
-            size--;
-            if (size == 0) {
-                front = null;
-                back = null;
-            }
-        }
-        return frontTemp;
-    }
-
-    public QueueNode poll() {
-        return null;
-    }
-
-    public QueueNode element() {
-        return null;
+        return front.value;
     }
 
     public boolean isEmpty() {
         return front == null;
     }
 
-    public QueueNode getBack() {
-        return back;
-    }
-
-    public QueueNode getFront() {
-        return front;
-    }
-
-    public int getSize() {
-        return size;
-    }
-
     @Override
     public String toString() {
         return "Queue{" +
-                "back=" + back +
-                ", front=" + front +
+                "front=" + front +
+                ", back=" + back +
                 ", size=" + size +
                 '}';
     }
-
-
 }

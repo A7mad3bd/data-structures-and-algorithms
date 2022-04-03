@@ -1,5 +1,6 @@
 package com.pkg;
 
+import com.pkg.psedoqueue.pseudoqueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,14 +8,23 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class Pseduequeue {
     @Test
     void testEnqueue() throws Exception {
-        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
+        pseudoqueue test = new pseudoqueue();
         test.enqueue("A");
-        assertEquals("[A]", test.First.toString());
+        assertEquals("[A]", test.getFirst().toString());
     }
 
     @Test
+    void testDequeue() throws Exception {
+        pseudoqueue test = new pseudoqueue();
+        test.enqueue("A");
+        test.enqueue("B");
+        test.enqueue("C");
+        test.dequeue();
+        assertEquals(test.getSecound().peek(), "A");
+    }
+    @Test
     void testEnqueues() throws Exception {
-        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
+        pseudoqueue test = new pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
@@ -22,34 +32,26 @@ class Pseduequeue {
     }
 
     @Test
-    void EnqueueFIFObypeek() throws Exception {
-        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
-        test.enqueue("A");
-        test.enqueue("B");
-        test.enqueue("C");
-        assertEquals(test.First.peek(), "C");
-    }
-
-    @Test
-    void testDequeue() throws Exception {
-        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
-        test.enqueue("A");
-        test.enqueue("B");
-        test.enqueue("C");
-        test.dequeue();
-        assertEquals(test.Secound.peek(), "A");
-    }
-
-    @Test
     void testDequeue_S() throws Exception {
-        com.pkg.pseudoqueue test = new com.pkg.pseudoqueue();
+        pseudoqueue test = new pseudoqueue();
         test.enqueue("A");
         test.enqueue("B");
         test.enqueue("C");
         test.dequeue();
         test.dequeue();
         test.dequeue();
-        assertEquals(test.Secound.toString(), "[C, B, A]");
+        assertEquals(test.getSecound().toString(), "[C, B, A]");
     }
+    @Test
+    void EnqueueFIFObypeek() throws Exception {
+        pseudoqueue test = new pseudoqueue();
+        test.enqueue("A");
+        test.enqueue("B");
+        test.enqueue("C");
+        assertEquals(test.getFirst().peek(), "C");
+    }
+
+
+
 
 }
