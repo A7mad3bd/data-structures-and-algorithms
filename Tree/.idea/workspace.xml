@@ -5,36 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5099994-e195-483e-95e1-4135f85a78ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-max/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-max/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/data/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/structure/BTNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinaryNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinaryTree.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/1234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/Tree_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,37 +77,14 @@
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Tree-breadth-first" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Tree-max" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree" />
-      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Tree-breadth-first" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg\duckDuckGoose" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg\validatebrackets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.pkg'">
-    <configuration name="Pseduequeue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;com.pkg.Pseduequeue&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Tree_test.MaxBinarytreetest">
     <configuration name="Pseduequeue.testEnqueues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,6 +122,29 @@
             <option value=":app:test" />
             <option value="--tests" />
             <option value="&quot;com.pkg.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree_test.MaxBinarytreetest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;com.pkg.Tree_test.MaxBinarytreetest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tree_test.MaxBinarytreetest" />
         <item itemvalue="Gradle.Tests in 'com.pkg'" />
         <item itemvalue="Gradle.Treetest.emptyTreeTest" />
         <item itemvalue="Gradle.Treetest.BinarySearchTree" />
         <item itemvalue="Gradle.Pseduequeue.testEnqueues" />
-        <item itemvalue="Gradle.Pseduequeue" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +229,7 @@
       <workItem from="1648516897975" duration="5110000" />
       <workItem from="1648924289499" duration="11926000" />
       <workItem from="1649033354759" duration="2909000" />
+      <workItem from="1649063561506" duration="2765000" />
     </task>
     <servers />
   </component>
