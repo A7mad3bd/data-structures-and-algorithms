@@ -2,52 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/Queuen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/Stackn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/duckDuckGoose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/duckDuckGoosetest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/tre.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tre/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/AnimalShelter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/cats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/dogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/QueueNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/QueueNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/StackNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/StackNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/brackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/pseudoqueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/pseudoqueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/Pseduequeue.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/Pseduequeue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/StacknTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/validate_brackets_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/validate_brackets_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/data/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/structure/BTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BinaryNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/tree/structure/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +47,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stack-queue-pseudo/app/src/main/java/com/pkg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-queue-pseudo\app\src\main\java\com\pkg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,6 +79,7 @@
       <workItem from="1648571202519" duration="368000" />
       <workItem from="1648605797078" duration="4000" />
       <workItem from="1648947400077" duration="59000" />
+      <workItem from="1649033052532" duration="276000" />
     </task>
     <servers />
   </component>
