@@ -29,7 +29,7 @@ public class BinaryTreeSearch {
 
     private void traverse(Node current, int key) {
 
-        if (key > current.getKey()) {
+        if (key > current.getdata()) {
             if (current.getRight() == null) {
                 current.setRight(new Node(key));
                 return;
@@ -53,16 +53,16 @@ public class BinaryTreeSearch {
     public void inorderRec(Node root) {
         if (root != null) {
             inorderRec(root.getLeft());
-            System.out.println(root.getKey());
+            System.out.println(root.getdata());
             inorderRec(root.getRight());
         }
     }
 
-    public boolean ifcontains(int key) {
+    public boolean ifcontains(int data) {
         while (root != null) {
-            if (key > root.getKey())
+            if (data > root.getdata())
                 root = root.getRight();
-            else if (key < root.getKey())
+            else if (data < root.getdata())
                 root = root.getLeft();
             else
                 return true;
@@ -71,20 +71,4 @@ public class BinaryTreeSearch {
     }
 
 
-    public int MaxBinarytree(Node node)
-    {
-
-        if (node == null)
-            return 0;
-
-        int nooddata = node.getData();
-        int ld = MaxBinarytree(node.getLeft());
-        int rd = MaxBinarytree(node.getRight());
-
-        if (ld > nooddata)
-            nooddata = ld;
-        if (rd > nooddata)
-            nooddata = rd;
-        return nooddata;
-    }
 }

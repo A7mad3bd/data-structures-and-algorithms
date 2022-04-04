@@ -1,6 +1,7 @@
 package com.pkg.tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class BinaryTree {
@@ -26,8 +27,8 @@ public class BinaryTree {
 
         postOrder(node.getLeft());
         postOrder(node.getRight());
-        System.out.print(node.getKey() + " ");
-        postOrderList.add(node.getKey());
+        System.out.print(node.getdata() + " ");
+        postOrderList.add(node.getdata());
     }
 
     public void inOrder(Node node) {
@@ -38,8 +39,8 @@ public class BinaryTree {
 
         inOrder(node.getLeft());
 
-        System.out.print(node.getKey() + " ");
-        inOrderList.add(node.getKey());
+        System.out.print(node.getdata() + " ");
+        inOrderList.add(node.getdata());
 
         inOrder(node.getRight());
 
@@ -51,8 +52,8 @@ public class BinaryTree {
             return;
         }
 
-        System.out.print(node.getKey() + " ");
-        preOrderList.add(node.getKey());
+        System.out.print(node.getdata() + " ");
+        preOrderList.add(node.getdata());
 
         preOrder(node.getLeft());
 
@@ -89,13 +90,51 @@ public class BinaryTree {
     public void setPreOrderList(List<Integer> preOrderList) {
         this.preOrderList = preOrderList;
     }
+
+
+    public int MaxBinarytree(Node node)
+    {
+        if (node == null)
+            return 0;
+
+        int nooddata =  node.getdata();
+        int ld = MaxBinarytree(node.getLeft());
+        int rd = MaxBinarytree(node.getRight());
+
+        if (ld > nooddata)
+            nooddata = ld;
+        if (rd > nooddata)
+            nooddata = rd;
+        return nooddata;
+    }
+
+    public ArrayList breadthFirst(BinaryTree tree) {
+        if (tree.getRoot() == null) {
+            return null;
+        }
+        LinkedList<Node> allnodes = new LinkedList<>() ;
+        ArrayList<Integer> breadthFirstnodes = new ArrayList<>();
+        allnodes.add(tree.getRoot());
+        while (!allnodes.isEmpty()) {
+            Node node = allnodes.remove();
+            breadthFirstnodes.add(node.getdata());
+            if (node.getLeft() != null) {
+                allnodes.add(node.getLeft());
+            }
+            if (node.getRight() != null) {
+                allnodes.add(node.getRight());
+            }
+        }
+        return breadthFirstnodes;
+    }
+
     @Override
     public String toString() {
 
         return "BinaryTree{ " +
-                " root = " + root.getKey() +
-                " left = " + root.getLeft().getKey() +
-                " right = " + root.getRight().getKey() +
+                " root = " + root.getdata() +
+                " left = " + root.getLeft().getdata() +
+                " right = " + root.getRight().getdata() +
                 " }";
     }
 

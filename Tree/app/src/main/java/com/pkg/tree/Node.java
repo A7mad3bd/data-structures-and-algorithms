@@ -2,13 +2,19 @@ package com.pkg.tree;
 
 public class Node<T> {
 
-    private  int data;
-    public Node  left;
-    public Node  right;
+    private  int data ;
+    private Node <T> left;
+    private Node <T> right;
 
-    public Node(int data) {
+    public Node(T key) {
         this.data = data;
         left = right = null;
+    }
+
+    public Node(int data, Node<T> left, Node<T> right) {
+        this.data = data;
+        this.left = left;
+        this.right = right;
     }
 
     public int getData() {
@@ -19,15 +25,19 @@ public class Node<T> {
         this.data = data;
     }
 
-    public int getKey() {
+    public int getdata() {
         return data;
     }
 
-    public Node getLeft() {
+    public Node <T> getLeft() {
         return left;
     }
 
-    public Node getRight() {
+    public void setLeft(Node <T> left) {
+        this.left = left;
+    }
+
+    public Node <T> getRight() {
         return right;
     }
 
