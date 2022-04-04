@@ -13,7 +13,9 @@
 | AnimalShelter     |[link](./stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/) |
 | validate_brackets	     |  [link](./stack-and-queue/app/src/main/java/com/pkg/validatebrackets/) | 
 | duckDuckGoose     |  [link](./stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/) | 
-| Tree     |  [link](./stack-and-queue/app/src/main/java/com/pkg/tree/) | 
+| Tree     |  [link](./Tree/app/src/main/java/com/pkg/tree) | 
+| Max-Tree     |  [link](./Tree/app/src/main/java/com/pkg/tree/Tree-max/README.md) | 
+
 
 
 
