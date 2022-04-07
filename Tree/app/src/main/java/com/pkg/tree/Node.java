@@ -1,21 +1,11 @@
 package com.pkg.tree;
 
-public class Node<T> {
+public class Node {
+    int data;
+    Node left;
+    Node right;
 
-    private  int data ;
-    private Node <T> left;
-    private Node <T> right;
 
-    public Node(T key) {
-        this.data = data;
-        left = right = null;
-    }
-
-    public Node(int data, Node<T> left, Node<T> right) {
-        this.data = data;
-        this.left = left;
-        this.right = right;
-    }
 
     public int getData() {
         return data;
@@ -25,24 +15,19 @@ public class Node<T> {
         this.data = data;
     }
 
-    public int getdata() {
-        return data;
-    }
-
-    public Node <T> getLeft() {
+    public Node getLeft() {
         return left;
     }
 
-    public void setLeft(Node <T> left) {
+    public void setLeft(Node left) {
         this.left = left;
     }
 
-    public Node <T> getRight() {
+    public Node getRight() {
         return right;
     }
 
-    public void setRight(Node <T> right) {
+    public void setRight(Node right) {
         this.right = right;
     }
-
 }

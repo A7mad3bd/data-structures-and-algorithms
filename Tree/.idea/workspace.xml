@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5099994-e195-483e-95e1-4135f85a78ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/1234.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/Tree_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Sum_Odd/sumodd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/fizzBuzz/12345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/fizzBuzz/KNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/fizzBuzz/KTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/fizzBuzz/KaryTreeFizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pkg/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pkg/Tree_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pkg/tree/fizzBuzz/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,15 +81,15 @@
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Sum Odd" />
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree" />
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\fizzBuzz" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Tree-breadth-first" />
       <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree\Tree-max" />
-      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree" />
-      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg\duckDuckGoose" />
-      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-and-queue\app\src\main\java\com\pkg\validatebrackets" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tree_test.MaxBinarytreetest">
-    <configuration name="Pseduequeue.testEnqueues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TreeTest.testodd">
+    <configuration name="TreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,7 +102,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.Pseduequeue.testEnqueues&quot;" />
+            <option value="&quot;com.pkg.TreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -108,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'com.pkg'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest.testInsertBstRoot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +125,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.*&quot;" />
+            <option value="&quot;com.pkg.TreeTest.testInsertBstRoot&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tree_test.MaxBinarytreetest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest.testcontain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +148,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.Tree_test.MaxBinarytreetest&quot;" />
+            <option value="&quot;com.pkg.TreeTest.testcontain&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Treetest.BinarySearchTree" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest.testmax" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +171,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.Treetest.BinarySearchTree&quot;" />
+            <option value="&quot;com.pkg.TreeTest.testmax&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +181,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Treetest.emptyTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest.testodd" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +194,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;com.pkg.Treetest.emptyTreeTest&quot;" />
+            <option value="&quot;com.pkg.TreeTest.testodd&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tree_test.MaxBinarytreetest" />
-        <item itemvalue="Gradle.Tests in 'com.pkg'" />
-        <item itemvalue="Gradle.Treetest.emptyTreeTest" />
-        <item itemvalue="Gradle.Treetest.BinarySearchTree" />
-        <item itemvalue="Gradle.Pseduequeue.testEnqueues" />
+        <item itemvalue="Gradle.TreeTest.testodd" />
+        <item itemvalue="Gradle.TreeTest" />
+        <item itemvalue="Gradle.TreeTest.testcontain" />
+        <item itemvalue="Gradle.TreeTest.testmax" />
+        <item itemvalue="Gradle.TreeTest.testInsertBstRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +234,7 @@
       <workItem from="1648924289499" duration="11926000" />
       <workItem from="1649033354759" duration="2909000" />
       <workItem from="1649063561506" duration="2765000" />
+      <workItem from="1649325521127" duration="10650000" />
     </task>
     <servers />
   </component>
@@ -249,5 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/com_pkg$TreeTest_testodd.ic" NAME="TreeTest.testodd Coverage Results" MODIFIED="1649338376314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
