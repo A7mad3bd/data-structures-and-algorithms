@@ -18,8 +18,9 @@
 | Max-Breadth-First     |  [link](./Tree/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md) |
 | fizzBuzz     |  [link](./Tree/app/src/main/java/com/pkg/tree/fizzBuzz/README.md) | 
 | Sum_Odd     |  [link](./Tree/app/src/main/java/com/pkg/tree/Sum_Odd/README.md) | 
+| Insertion Sort     |  [link](./InsertionSort/Readme.md) | 
+| Merge Sort     |  [link](./Merge%20Sort/README.md) |
 
 
-.
 
 
