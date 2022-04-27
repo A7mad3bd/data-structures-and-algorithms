@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data-structures-and-algorithms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D-Array-Row-Count/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D-Array-Row-Count/code_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/BinaryTreeSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Sum_Odd/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Sum_Odd/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Sum_Odd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Sum_Odd/sumodd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Tree-breadth-first/1234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Tree-breadth-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Tree-max/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/Tree-max/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/fizzBuzz/12345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/fizzBuzz/KNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/fizzBuzz/KTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/fizzBuzz/KaryTreeFizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/main/java/com/pkg/tree/fizzBuzz/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/app/src/test/java/com/pkg/TreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-binary-search/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-binary-search/code_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-reverse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-reverse/code_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertShiftArray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertShiftArray/code_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/2222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/add_after.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/add_before.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/append.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/pi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/zip_list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/assets/zip_sol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/bin/main/linked/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/bin/main/linked/linked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/bin/test/linked/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/linked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/test/java/linked/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/AnimalShelter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/Animals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/cats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/AnimalShelter/dogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/QueueNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/Queuen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/StackNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Stack_queue_node/Stackn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/duckDuckGoose/duckDuckGoose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/psedoqueue/pseudoqueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/validatebrackets/brackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/AnimalShelterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/Pseduequeue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/QueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/StacknTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/duckDuckGoosetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/app/src/test/java/com/pkg/validate_brackets_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack-and-queue/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/stack-and-queue/.gitattributes" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stack-and-queue/app/src/main/java/com/pkg/Node.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25XiKVmSTUkCGYqlfds8J6uQUMK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms" />
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\stack-queue-pseudo\app\src\main\java\com\pkg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmad Abdallah\Desktop\401\Code-Challenge\data-structures-and-algorithms\Tree\app\src\main\java\com\pkg\tree" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="" />
+      <created>1645679768214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645679768214</updated>
+      <workItem from="1645679769887" duration="24000" />
+      <workItem from="1645867190852" duration="17000" />
+      <workItem from="1646940726203" duration="1093000" />
+      <workItem from="1647276829411" duration="198000" />
+      <workItem from="1647340806257" duration="278000" />
+      <workItem from="1647799239245" duration="46000" />
+      <workItem from="1647799333663" duration="103000" />
+      <workItem from="1647802005647" duration="149000" />
+      <workItem from="1647817294361" duration="199000" />
+      <workItem from="1647944031442" duration="48000" />
+      <workItem from="1648571202519" duration="368000" />
+      <workItem from="1648605797078" duration="4000" />
+      <workItem from="1648947400077" duration="59000" />
+      <workItem from="1649033052532" duration="276000" />
+      <workItem from="1651019221817" duration="24000" />
+      <workItem from="1651019263485" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
