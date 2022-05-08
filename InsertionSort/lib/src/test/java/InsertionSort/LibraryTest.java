@@ -29,4 +29,30 @@ class LibraryTest {
         System.out.println();
         assertEquals(arr1,arr2);
     }
+
+    @Test void insertionSortempty()
+    {
+        int[] arr1= new int[]{};
+        int[] arr2= new int[]{};
+
+        sort(arr1);
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.println(arr1[i]);
+        }
+        System.out.println();
+        assertEquals(arr1,arr2);
+    }
+
+    @Test void insertionSort_sorted()
+    {
+        int[] arr1= new int[]{1,2};
+        int[] arr2= new int[]{1,2};
+
+        sort(arr1);
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.println(arr1[i]);
+        }
+        System.out.println();
+        assertEquals(arr1,arr2);
+    }
 }
