@@ -1,5 +1,6 @@
 package com.example.structure;
 
+import com.example.Tree_intersection.BinaryTreeSearch;
 import com.example.data.HashNode;
 
 import java.util.ArrayList;
@@ -101,7 +102,7 @@ public class HashMap<K, V> {
         }
     }
 
-//    hash
+    //    hash
 //    Arguments: key
 //    Returns: Index in the collection for that key
     public int hash(K key) {
@@ -112,11 +113,11 @@ public class HashMap<K, V> {
     }
 
 
-//    get
+    //    get
 //    Arguments: key
 //    Returns: Value associated with that key in the table
     public V get(K key) {
-        int bucketIndex  = hash(key);
+        int bucketIndex = hash(key);
         int hashcode = hashCode(key);
         HashNode<K, V> head = bucketArray.get(bucketIndex);
         if (head.getNext() == null) {
@@ -139,7 +140,7 @@ public class HashMap<K, V> {
         return get(key) != null;
     }
 
-//    keys
+    //    keys
 //    Returns: Collection of keys
     public ArrayList<K> keys() {
         ArrayList<K> Keys = new ArrayList<>();
@@ -154,7 +155,36 @@ public class HashMap<K, V> {
     }
 
 
+    public static ArrayList<String> tree_intersection(BinaryTreeSearch T1, BinaryTreeSearch T2) {
 
+        ArrayList<Integer> Tr1 = T1.InOrder(T1.getRoot());
+        ArrayList<Integer> Tr2 = T2.InOrder(T2.getRoot());
+
+        HashMap<String, Integer> HashMap = new HashMap<>();
+        ArrayList<String> arr = new ArrayList<>();
+
+        for (int i = 0; i < Tr1.size(); i++) {
+            String s1 = Tr1.get(i).toString();
+
+            if (!HashMap.contains(s1)) {
+                HashMap.put(s1, 1);
+            } else {
+
+                HashMap.put(s1, HashMap.get(s1) + 1);
+            }
+        }
+        for (int i = 0; i < Tr2.size(); i++) {
+            String s2=Tr2.get(i).toString();
+            if (!HashMap.contains(s2)) {
+                HashMap.put(s2, 1);
+            } else {
+                HashMap.put(s2, HashMap.get(s2) + 1);
+                arr.add(s2);
+            }
+        }
+        return arr;
+
+    }
 
 
 }

@@ -22,6 +22,7 @@
 | Merge Sort     |  [link](./Merge%20Sort/README.md) |
 | Quick Sort     |  [link](./Quick_Sort/README.md) |
 | Hash Table     |  [link](./HashTable/README.md) |
+| Hash Table common in tree   |  [link](./HashTable/README.md) |
 
 
 
