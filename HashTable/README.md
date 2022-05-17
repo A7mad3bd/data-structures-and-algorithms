@@ -1,5 +1,9 @@
 # Hashtables
 
+![code32](./32.jpg)  
+
+
+
 ## Challenge
 Implement a hash table with the following methods; set(put), get, contains, keys, and hash.
 
