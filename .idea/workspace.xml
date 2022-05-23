@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/src/com/example/Tree_intersection/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/src/com/example/Tree_intersection/BinaryTreeSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/src/com/example/Tree_intersection/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/out/production/HashTable/com/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/out/production/HashTable/com/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/out/production/HashTable/com/example/Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/out/production/HashTable/com/example/structure/HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/out/production/HashTable/com/example/structure/HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/out/production/HashTable/test/java/linked/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/out/production/HashTable/test/java/linked/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/com/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/com/example/structure/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/com/example/structure/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +65,7 @@
       <workItem from="1651019263485" duration="80000" />
       <workItem from="1652005291041" duration="983000" />
       <workItem from="1652820850309" duration="130000" />
+      <workItem from="1653323865658" duration="21000" />
     </task>
     <servers />
   </component>

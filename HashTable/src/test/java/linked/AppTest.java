@@ -56,6 +56,37 @@ public class AppTest {
     }
 
 
+    @Test
+    public void tree_intersection_test() {
+
+        HashTable<Integer, Integer> trees = new HashTable<Integer, Integer>();
+
+        BinaryTreeSearch tree1 = new BinaryTreeSearch();
+        BinaryTreeSearch tree2 = new BinaryTreeSearch();
+
+        tree1.setRoot(new Node(1));
+        tree1.getRoot().setLeft(new Node(2));
+        tree1.getRoot().setRight(new Node(3));
+        tree1.getRoot().getRight().setLeft(new Node(4));
+        tree1.getRoot().getRight().setRight(new Node(5));
+
+
+        tree2.setRoot(new Node(1));
+        tree2.getRoot().setLeft(new Node(3));
+        tree2.getRoot().setRight(new Node(5));
+        tree2.getRoot().getRight().setLeft(new Node(7));
+        tree2.getRoot().getRight().setRight(new Node(9));
+        ArrayList<String> arr = new ArrayList<>();
+        arr.add("3");
+        arr.add("1");
+        arr.add("5");
+
+        assertEquals(HashTable.tree_intersection(tree1, tree2),arr);
+
+
+    }
+
+
 
 
 }

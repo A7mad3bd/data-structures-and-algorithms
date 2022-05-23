@@ -178,4 +178,39 @@ public class HashTable<K, V> {
 
         return "NULL";
     }
+
+
+
+
+    public static ArrayList<String> tree_intersection(BinaryTreeSearch T1, BinaryTreeSearch T2) {
+
+        ArrayList<Integer> Tr1 = T1.InOrder(T1.getRoot());
+        ArrayList<Integer> Tr2 = T2.InOrder(T2.getRoot());
+
+        HashTable<String, Integer> HashTable = new HashTable<>();
+        ArrayList<String> arr = new ArrayList<>();
+
+        for (int i = 0; i < Tr1.size(); i++) {
+            String s1 = Tr1.get(i).toString();
+
+            if (!HashTable.contains(s1)) {
+                HashTable.put(s1, 1);
+            } else {
+
+                HashTable.put(s1, HashTable.get(s1) + 1);
+            }
+        }
+        for (int i = 0; i < Tr2.size(); i++) {
+            String s2=Tr2.get(i).toString();
+            if (!HashTable.contains(s2)) {
+                HashTable.put(s2, 1);
+            } else {
+                HashTable.put(s2, HashTable.get(s2) + 1);
+                arr.add(s2);
+            }
+        }
+        return arr;
+
+    }
+
 }
