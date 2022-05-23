@@ -5,15 +5,16 @@ import com.example.data.HashNode;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Locale;
 import java.util.Objects;
 
-public class HashMap<K, V> {
+public class HashTable<K, V> {
     private ArrayList<HashNode<K, V>> bucketArray;
     private int buckets;
     private int size;
     private final HashSet<K> KEYS = new HashSet<>();
 
-    public HashMap() {
+    public HashTable() {
         bucketArray = new ArrayList<>();
         buckets = 10;
 
@@ -63,35 +64,34 @@ public class HashMap<K, V> {
 //    Should a given key already exist, replace its value from the value argument given to this method.
 
     public void put(K key, V value) {
-        // find the index of where we should put the value in
-        // the bucket array
-        int index = getBucketIndex(key);
-        int hashcode = hashCode(key);
 
-        // create head and make it point to where the index is
-        HashNode<K, V> head = bucketArray.get(index);
-        HashNode<K, V> newNode = new HashNode<>(key, value, hashcode);
-        // head could be pointing to a list, so we need
-        // to loop over the potential list and insert a
-        // new node at the end.
-        if (head == null) {
-            bucketArray.set(index, newNode);
-            size++;
-        } else { // TODO: 5/11/22 We need to check for duplicate keys
-            // this is logic from class mate
-            newNode.setNext(head.getNext());
-            head.setNext(newNode);
-            size++;
+        int bucketIndex = hash(key);
+        int hashCode = hashCode(key);
+        HashNode<K, V> head = bucketArray.get(bucketIndex);
+
+        while (head != null) {
+            if (head.getKey().equals(key) && head.getHashCode() == hashCode) {
+                head.setValue(value);
+                return;
+            }
+            head = head.getNext();
         }
-        // If load factor goes beyond threshold, then
-        // double hash table size
+        size++;
+        head = bucketArray.get(bucketIndex);
+        HashNode<K, V> newNode = new HashNode<>(key, value, hashCode);
+        newNode.setNext(head);
+        bucketArray.set(bucketIndex, newNode);
+
+        // increase the table size
         if ((1.0 * size) / buckets >= 0.7) {
             ArrayList<HashNode<K, V>> temp = bucketArray;
             bucketArray = new ArrayList<>();
             buckets = 2 * buckets;
             size = 0;
-            for (int i = 0; i < buckets; i++)
+
+            for (int index = 0; index < buckets; index++) {
                 bucketArray.add(null);
+            }
 
             for (HashNode<K, V> headNode : temp) {
                 while (headNode != null) {
@@ -118,16 +118,15 @@ public class HashMap<K, V> {
 //    Returns: Value associated with that key in the table
     public V get(K key) {
         int bucketIndex = hash(key);
-        int hashcode = hashCode(key);
+        int hashCode = hashCode(key);
         HashNode<K, V> head = bucketArray.get(bucketIndex);
-        if (head.getNext() == null) {
-            return head.getValue();
-        } else {
-            while (head != null) {
-                if (head.getKey().equals(key) && head.getHashCode().equals(hashcode))
-                    return head.getValue();
-                head = head.getNext();
+        // search the linnked list
+        while (head != null) {
+            if (head.getKey().equals(key) && head.getHashCode() == hashCode) {
+                return head.getValue();
             }
+
+            head = head.getNext();
         }
         return null;
     }
@@ -155,36 +154,28 @@ public class HashMap<K, V> {
     }
 
 
-    public static ArrayList<String> tree_intersection(BinaryTreeSearch T1, BinaryTreeSearch T2) {
-
-        ArrayList<Integer> Tr1 = T1.InOrder(T1.getRoot());
-        ArrayList<Integer> Tr2 = T2.InOrder(T2.getRoot());
-
-        HashMap<String, Integer> HashMap = new HashMap<>();
-        ArrayList<String> arr = new ArrayList<>();
-
-        for (int i = 0; i < Tr1.size(); i++) {
-            String s1 = Tr1.get(i).toString();
-
-            if (!HashMap.contains(s1)) {
-                HashMap.put(s1, 1);
-            } else {
-
-                HashMap.put(s1, HashMap.get(s1) + 1);
+    //repeatedWord
+    public String repeatedWord(String text) {
+        String Text = text.toLowerCase(Locale.ROOT);
+        String[] alltext = Text.split(" ");
+        HashTable<String, Integer> HT = new HashTable<String, Integer>();
+        for (String word : alltext) {
+            if (word.contains(",")) {
+                word = word.substring(0, word.length() - 1);
+            }
+            if (!word.equals("")) {
+                int count;
+                if (HT.get(word) != null)
+                    count = HT.get(word);
+                else
+                    count = 0;
+                if (count == 1) {
+                    return word;
+                }
+                HT.put(word, count + 1);
             }
         }
-        for (int i = 0; i < Tr2.size(); i++) {
-            String s2=Tr2.get(i).toString();
-            if (!HashMap.contains(s2)) {
-                HashMap.put(s2, 1);
-            } else {
-                HashMap.put(s2, HashMap.get(s2) + 1);
-                arr.add(s2);
-            }
-        }
-        return arr;
 
+        return "NULL";
     }
-
-
 }

@@ -21,8 +21,9 @@
 | Insertion Sort     |  [link](./InsertionSort/Readme.md) | 
 | Merge Sort     |  [link](./Merge%20Sort/README.md) |
 | Quick Sort     |  [link](./Quick_Sort/README.md) |
-| Hash Table     |  [link](./HashTable/README.md) |
-| Hash Table common in tree   |  [link](./HashTable/README.md) |
+| Hash Table     |  [link](./HashTable) |
+| Hash Table repeated-word   |  [link](./HashTable/README31.md) |
+| Hash Table common in tree   |  [link](./HashTable/README32.md) |
 
 
 

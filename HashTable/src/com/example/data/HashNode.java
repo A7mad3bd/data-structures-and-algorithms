@@ -2,13 +2,17 @@ package com.example.data;
 
 public class HashNode<K, V> {
     private final K key;
-    private final V value;
-    private final Integer hashCode;
+    private V value;
+    private  Integer hashCode;
     private HashNode<K, V> next;
 
     public HashNode(K key, V value, Integer hashCode) {
         this.key = key;
         this.value = value;
+        this.hashCode = hashCode;
+    }
+
+    public void setHashCode(Integer hashCode) {
         this.hashCode = hashCode;
     }
 
@@ -30,5 +34,9 @@ public class HashNode<K, V> {
 
     public Integer getHashCode() {
         return hashCode;
+    }
+
+    public void setValue(V value) {
+        this.value = value;
     }
 }

@@ -1,8 +1,9 @@
 package com.example;
 
+import com.example.Tree_intersection.BinaryTree;
 import com.example.Tree_intersection.BinaryTreeSearch;
 import com.example.Tree_intersection.Node;
-import com.example.structure.HashMap;
+import com.example.structure.HashTable;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
