@@ -1,6 +1,6 @@
 # Hashtables
 
-![code32](./32.jpg)
+![code32](./31.jpg)
 
 
 
