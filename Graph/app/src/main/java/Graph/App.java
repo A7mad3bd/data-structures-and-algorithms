@@ -24,7 +24,7 @@ public class App {
         System.out.println(        graph.size());
         System.out.println(        graph.getnodes());
 
-        System.out.println(graph.bfs(graph,"A"));
+        System.out.println(graph.bfs("A"));
 
 
     }

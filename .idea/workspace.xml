@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="" />
+    <list default="true" id="ed99fd22-f568-438e-82ff-189b754d7f10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Graph/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/README36.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/test36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/app/src/main/java/Graph/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/app/src/main/java/Graph/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/app/src/main/java/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/app/src/main/java/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/app/src/test/java/Graph/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/app/src/test/java/Graph/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +75,9 @@
       <workItem from="1652005291041" duration="983000" />
       <workItem from="1652820850309" duration="130000" />
       <workItem from="1653323865658" duration="21000" />
+      <workItem from="1653942847626" duration="458000" />
+      <workItem from="1653954635786" duration="276000" />
+      <workItem from="1654040413821" duration="50000" />
     </task>
     <servers />
   </component>

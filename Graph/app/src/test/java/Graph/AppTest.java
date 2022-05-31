@@ -116,7 +116,25 @@ public class AppTest {
 
         assertEquals("Vertex{data='1'}[Vertex{data='1'}, Vertex{data='1'}]", graph.printGraph());
     }
+    @Test
+    public void bfs() {
+
+        Graph graph = new Graph();
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("C");
+        graph.addVertex("D");
+        graph.addVertex("E");
 
 
+        graph.addEdges("A","B");
+        graph.addEdges("B","C");
+        graph.addEdges("A","C");
+        graph.addEdges("D","C");
+        graph.addEdges("E","D");
+
+        System.out.println(graph.bfs("C"));
+
+    }
 
 }
