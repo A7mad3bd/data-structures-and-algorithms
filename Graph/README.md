@@ -32,6 +32,10 @@
     - Time: O(1)
     - Space: O(1)
 
+- getNeighbors()
+   - Time: O(1)
+   - Space: O(1)
+ 
 ## API
 
 <!-- Description of each method publicly available in your Graph -->

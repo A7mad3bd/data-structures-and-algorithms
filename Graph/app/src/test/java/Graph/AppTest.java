@@ -3,12 +3,120 @@
  */
 package Graph;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+//import org.junit.Test;
+
+//import org.junit.jupiter.api.Test;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 
 public class AppTest {
-    @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+
+    @Test
+    public void addVertex() {
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addVertex("2");
+
+        assertNotNull(graph.getnodes());
+        assertEquals(2, graph.size());
     }
+
+    @Test
+    public void AddEdges() {
+
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addEdges("1", "2");
+
+        assertEquals("Vertex{data='1'}[Vertex{data='2'}]Vertex{data='2'}[Vertex{data='1'}]", graph.printGraph());
+    }
+
+    @Test
+    public void Print() {
+
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addEdges("1", "2");
+        assertEquals("Vertex{data='1'}[Vertex{data='2'}]Vertex{data='2'}[Vertex{data='1'}]", graph.printGraph());
+    }
+
+    @Test
+    public void Neighbors() {
+
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addVertex("3");
+
+        graph.addEdges("2", "3");
+        graph.addEdges("1", "3");
+        System.out.println(graph.getNeighbors(new Vertex("1")));
+        assertEquals(1, graph.getNeighbors(new Vertex("1")).size());
+        assertEquals(1, graph.getNeighbors(new Vertex("2")).size());
+        assertEquals(2, graph.getNeighbors(new Vertex("3")).size());
+
+    }
+
+    @Test
+    public void empty() {
+
+        Graph graph = new Graph();
+        assertEquals(0, graph.size());
+        assertEquals("[]", graph.getnodes().toString());
+    }
+
+
+
+
+    @Test
+    public void remove() {
+
+        Graph graph = new Graph();
+
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addEdges("A", "B");
+        assertEquals("Vertex{data='A'}[Vertex{data='B'}]Vertex{data='B'}[Vertex{data='A'}]", graph.printGraph());
+        assertEquals(2, graph.size());
+
+        graph.removeVertex("A");
+        assertEquals("Vertex{data='B'}[]", graph.printGraph());
+        assertEquals(1, graph.size());
+    }
+
+    @Test
+    public void removeEdge() {
+        Graph graph = new Graph();
+
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addEdges("A", "B");
+        assertEquals("Vertex{data='A'}[Vertex{data='B'}]Vertex{data='B'}[Vertex{data='A'}]", graph.printGraph());
+
+        graph.removeEdge("A", "B");
+        assertEquals("Vertex{data='A'}[]Vertex{data='B'}[]", graph.printGraph());
+    }
+
+    @Test
+    public void oneVertexAndOneEdge() {
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addEdges("1", "1");
+
+        assertEquals("Vertex{data='1'}[Vertex{data='1'}, Vertex{data='1'}]", graph.printGraph());
+    }
+
+
+
 }
