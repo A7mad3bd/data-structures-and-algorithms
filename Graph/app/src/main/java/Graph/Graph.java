@@ -70,14 +70,14 @@ public class Graph {
         }
     }
 
-    public Set<String> bfs(Graph graph, String root) {
+    public Set<String> bfs(String root) {
         Set<String> visited = new LinkedHashSet<>();
         Queue<String> queue = new LinkedList<>();
         queue.add(root);
         visited.add(root);
         while (!queue.isEmpty()) {
             String vertex = queue.poll();
-            for (Vertex v : graph.getAdjVertices(vertex)) {
+            for (Vertex v : getNeighbors(new Vertex(vertex))) {
                 if (!visited.contains((v.data))) {
                     queue.add(v.data);
                     visited.add(v.data);
@@ -93,18 +93,17 @@ public class Graph {
     }
 
 
-//    size Arguments: none
+    //    size Arguments: none
 //    Returns the total number of nodes in the graph
     public int size() {
         return adjVertices.size();
     }
 
-//    get neighbors
+    //    get neighbors
 //    Arguments: node
 //    Returns a collection of edges connected to the given node
 //    Include the weight of the connection in the returned collection
-    public List<Vertex> getNeighbors(Vertex vertex)
-    {
+    public List<Vertex> getNeighbors(Vertex vertex) {
         return adjVertices.get(vertex);
     }
 
