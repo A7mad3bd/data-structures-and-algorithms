@@ -88,6 +88,25 @@ public class Graph {
         return visited;
     }
 
+    Set<String> dfs(String root) {
+        Set<String> visited = new LinkedHashSet<>();
+        Stack<String> stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            String vertex = stack.pop();
+            if (!visited.contains(vertex)) {
+                visited.add(vertex);
+
+                for (Vertex v : getNeighbors(new Vertex(vertex))) {
+                    stack.push(v.data);
+                }
+            }
+        }
+
+        return visited;
+    }
+
     public List<Vertex> getAdjVertices(String data) {
         return adjVertices.get(new Vertex(data));
     }

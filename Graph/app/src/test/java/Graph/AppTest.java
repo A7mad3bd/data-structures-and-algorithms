@@ -137,4 +137,55 @@ public class AppTest {
 
     }
 
+
+    @Test
+    public void depthFirstTest(){
+
+        Graph graph = new Graph();
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addVertex("3");
+        graph.addVertex("4");
+        graph.addVertex("5");
+
+        graph.addEdges("1","3");
+        graph.addEdges("3","2");
+        graph.addEdges("3","4");
+        graph.addEdges("4","5");
+
+        assertEquals("[1, 3, 4, 5, 2]", graph.dfs("1").toString());
+    }
+
+    @Test
+    public void dfs1(){
+
+        Graph graph = new Graph();
+
+        graph.addVertex("1");
+        graph.addVertex("2");
+        graph.addVertex("3");
+        graph.addVertex("4");
+
+        graph.addEdges("1", "2");
+        graph.addEdges("3", "4");
+        graph.addEdges("4", "2");
+
+
+        assertEquals("[1, 2, 4, 3]", graph.dfs("1").toString());
+    }
+
+    @Test
+    public void dfs2(){
+
+        Graph graph3 = new Graph();
+
+        graph3.addVertex("1");
+        graph3.addVertex("2");
+        graph3.addVertex("3");
+
+        graph3.addEdges("1", "2");
+
+        assertEquals("[1, 2]", graph3.dfs("1").toString());
+    }
+
 }
