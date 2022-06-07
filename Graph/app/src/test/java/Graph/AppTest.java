@@ -9,8 +9,7 @@ package Graph;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class AppTest {
@@ -76,8 +75,6 @@ public class AppTest {
     }
 
 
-
-
     @Test
     public void remove() {
 
@@ -116,6 +113,7 @@ public class AppTest {
 
         assertEquals("Vertex{data='1'}[Vertex{data='1'}, Vertex{data='1'}]", graph.printGraph());
     }
+
     @Test
     public void bfs() {
 
@@ -127,11 +125,11 @@ public class AppTest {
         graph.addVertex("E");
 
 
-        graph.addEdges("A","B");
-        graph.addEdges("B","C");
-        graph.addEdges("A","C");
-        graph.addEdges("D","C");
-        graph.addEdges("E","D");
+        graph.addEdges("A", "B");
+        graph.addEdges("B", "C");
+        graph.addEdges("A", "C");
+        graph.addEdges("D", "C");
+        graph.addEdges("E", "D");
 
         System.out.println(graph.bfs("C"));
 
@@ -139,7 +137,7 @@ public class AppTest {
 
 
     @Test
-    public void depthFirstTest(){
+    public void depthFirstTest() {
 
         Graph graph = new Graph();
         graph.addVertex("1");
@@ -148,16 +146,16 @@ public class AppTest {
         graph.addVertex("4");
         graph.addVertex("5");
 
-        graph.addEdges("1","3");
-        graph.addEdges("3","2");
-        graph.addEdges("3","4");
-        graph.addEdges("4","5");
+        graph.addEdges("1", "3");
+        graph.addEdges("3", "2");
+        graph.addEdges("3", "4");
+        graph.addEdges("4", "5");
 
         assertEquals("[1, 3, 4, 5, 2]", graph.dfs("1").toString());
     }
 
     @Test
-    public void dfs1(){
+    public void dfs1() {
 
         Graph graph = new Graph();
 
@@ -175,7 +173,7 @@ public class AppTest {
     }
 
     @Test
-    public void dfs2(){
+    public void dfs2() {
 
         Graph graph3 = new Graph();
 
@@ -187,5 +185,29 @@ public class AppTest {
 
         assertEquals("[1, 2]", graph3.dfs("1").toString());
     }
+
+    @Test
+    public void checkconnected() {
+        Graph graph = new Graph();
+
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("C");
+        graph.addVertex("D");
+        graph.addVertex("E");
+
+        graph.addEdges("A", "B");
+        graph.addEdges("A", "C");
+        graph.addEdges("D", "E");
+
+        assertFalse(graph.checkconnected("A", "N"));
+        assertFalse(graph.checkconnected("A", "D"));
+        assertTrue(graph.checkconnected("A", "B"));
+        assertTrue(graph.checkconnected("D", "E"));
+        assertTrue(graph.checkconnected("A", "C"));
+
+
+    }
+
 
 }
