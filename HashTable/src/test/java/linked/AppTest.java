@@ -86,6 +86,79 @@ public class AppTest {
 
     }
 
+    @Test
+    public void test_All(){
+        HashTable h1 = new HashTable();
+        h1.put("diligent", "employed");
+        h1.put("guide", "usher");
+
+        HashTable h2 = new HashTable();
+        h2.put("guide", "usher");
+        h2.put("diligent", "employed");
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("diligent -> employed , employed");
+        list.add("guide -> usher , usher");
+
+        assertEquals( list ,  HashTable.LeftJoin(h1, h2));
+    }
+
+    @Test
+    public void test_some(){
+        HashTable h1 = new HashTable();
+        h1.put("diligent", "enamored");
+        h1.put("fond", "anger");
+        h1.put("guide", "employed");
+        h1.put("outfit", "garb");
+        h1.put("wrath", "usher");
+
+        HashTable h2 = new HashTable();
+        h2.put("diligent", "idle");
+        h2.put("wrath", "anger");
+        h2.put("goal", "jam");
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("wrath -> usher , anger");
+        list.add("diligent -> enamored , idle");
+        list.add("fond -> anger , null");
+        list.add("guide -> employed , null");
+        list.add("outfit -> garb , null");
+
+        assertEquals( list ,  HashTable.LeftJoin(h1, h2));
+    }
+
+    @Test
+    public void testone_empty(){
+        HashTable h1 = new HashTable();
+        h1.put("diligent", "employed");
+        h1.put("fond", "employed");
+        h1.put("guide", "usher");
+        h1.put("outfit", "garb");
+        h1.put("wrath", "anger");
+
+        HashTable h2 = new HashTable();
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("wrath -> anger , null");
+        list.add("diligent -> employed , null");
+        list.add("fond -> employed , null");
+        list.add("guide -> usher , null");
+        list.add("outfit -> garb , null");
+
+        assertEquals( list ,  HashTable.LeftJoin(h1, h2));
+
+    }
+
+    @Test
+    public void testtwo_empty(){
+        HashTable h1 = new HashTable();
+        HashTable h2 = new HashTable();
+
+        ArrayList<String> list = new ArrayList<>();
+
+        assertEquals(list ,  HashTable.LeftJoin(h1, h2));
+
+    }
 
 
 

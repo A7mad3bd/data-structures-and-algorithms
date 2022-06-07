@@ -179,7 +179,19 @@ public class HashTable<K, V> {
         return "NULL";
     }
 
+    public static ArrayList<String> LeftJoin(HashTable h1, HashTable h2){
 
+        ArrayList<String> list = new ArrayList<>();
+        for(Object k : h1.keys()){
+            if(h1.contains(k)){
+                list.add(k + " -> " + h1.get(k)+ " , " + h2.get(k));
+            } else{
+                list.add(k + " -> " + h1.get(k) + " , " + null);
+            }
+        }
+
+        return list;
+    }
 
 
     public static ArrayList<String> tree_intersection(BinaryTreeSearch T1, BinaryTreeSearch T2) {

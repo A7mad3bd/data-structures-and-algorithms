@@ -126,4 +126,22 @@ public class Graph {
         return adjVertices.get(vertex);
     }
 
+    public boolean checkconnected(String v1, String v2) {
+
+        boolean flag = false;
+        Set<String> visited = new LinkedHashSet<>();
+        Queue<String> queue = new LinkedList<>();
+        queue.add(v1);
+        visited.add(v1);
+        while (!queue.isEmpty()) {
+            String vertex = queue.poll();
+            for (Vertex v : getNeighbors(new Vertex(vertex))) {
+                if (v.data == v2) {
+                    flag = true;
+                }
+            }
+        }
+
+        return flag;
+    }
 }

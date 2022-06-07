@@ -16,16 +16,16 @@ public class App {
         graph.addEdges("B","C");
         graph.addEdges("A","C");
 
-        System.out.println(graph.printGraph());
-
-//        graph.removeVertex("B");
-//        graph.removeEdge("A","B");
-
-        System.out.println(        graph.size());
-        System.out.println(        graph.getnodes());
-
-        System.out.println(graph.bfs("A"));
-
-
+//        System.out.println(graph.printGraph());
+//
+////        graph.removeVertex("B");
+////        graph.removeEdge("A","B");
+//
+//        System.out.println(        graph.size());
+//        System.out.println(        graph.getnodes());
+//
+//        System.out.println(graph.bfs("A"));
+//        graph.checkconnected("A","b");
+        System.out.println(graph.checkconnected("A","N"));
     }
 }
